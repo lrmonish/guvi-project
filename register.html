@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> -->
+    <script defer src="js/register.js"></script>
+</head>
+
+<body>
+    <form class="register-form" onsubmit="handleSubmit(event)">
+        <div class="title">
+            <h2>REGISTER</h2>
+        </div>
+        <div class="half">
+            <div class="item">
+                <label for="">Username</label>
+                <input type="text" name="name" required>
+            </div>
+        </div>
+        <div class="half">
+            <div class="item">
+                <label for="">Email</label>
+                <input type="text" name="email" required>
+            </div>
+            <div class="item">
+                <label for="">Password</label>
+                <input type="password" name="password" required>
+            </div>
+        </div>
+        <div class="action">
+            <input type="submit" name="register" value="REGISTER">
+        </div>
+    </form>
+    <p class="mt-3">Have an account? <a href="login.html" class="login-color">Login</a></p>
+</body>
+
+</html>

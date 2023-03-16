@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/profile.css">
+    <script defer src="./js/profile.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="heading">
+            <div class="welcome">
+                Hello, <span class="user-name">default name</span>
+            </div>
+            <div class="logout">
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+
+        <form onsubmit="update(event)" class="update-form">
+
+            <input placeholder="Enter age" type="text" name="age">
+            <input type="date" value="" name="dob">
+            <input placeholder="Enter Mobile Number" type="number" name="number">
+            <button type="submit">Update</button>
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
